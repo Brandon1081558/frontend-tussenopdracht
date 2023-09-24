@@ -1,8 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto+Mono&display=swap');
+
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
 nav {
+    box-sizing: border-box;
+    display: flex;
     justify-content: start;
+    background-color: #CCDBDC;
+    align-items: center;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000000;
+
+
+}
+
+
+
+
+.order-button {
+    background-color: #003153;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20% 10px 20%;
+
 }
 
 a {
     text-decoration: none;
-    color: grey;
+    color: #536878;
+    margin-right: 10px;
+}
+
+img {
+    padding-top: 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+h1 {
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.imageBlackBird {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+
+
+}
+
+.info {
+    flex: 1;
+}
+
+.image1 {
+    width: 1200px;
+    height: auto;
+    margin-right: 20px;
+
+}
+
+.cost {
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 1.2cm;
+}
+
+.smalldescription {
+    margin-left: 20px;
+    max-width: 40%;
+}
+
+.price {
+    border-bottom: 2px solid #000000;
+    margin-bottom: 20px;
+}
+
+.bigdescription {
+    display: flex;
+    padding-left: 15%;
+}
+
+.box {
+    width: 200px;
+    height: 220px;
+    background-color: #CCDBDC;
+    color: #000000;
+    text-align: center;
+    padding: 20px 50px 20px 50px;
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+.up {
+    text-align: left;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.text {
+    max-width: 40%;
+    flex: 1;
+}
+
+.relatedproducts {
+    background-color: #CCDBDC;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 35px;
+}
+
+.allproducts {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.products {
+    text-align: center;
+}
+
+.products img {
+    width: 150px;
+    height: auto;
+}
+
+.products p {
+    padding-top: 0px;
+    font-size: 25px;
+}
+
+h4 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h6 {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
 }
